@@ -1,0 +1,3 @@
+[submodule "home/.irssi/irssi-color-solarized"]
+	path = home/.irssi/irssi-color-solarized
+	url = https://github.com/huyz/irssi-colors-solarized

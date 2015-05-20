@@ -107,7 +107,7 @@ chatnets = {
 };
 
 channels = (
-  { name = "#atp"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#atpfm"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#ansible"; chatnet = "Freenode"; autojoin = "No"; },
   { name = "#lobby"; chatnet = "EsperNet"; autojoin = "No"; },
   { name = "#freenode"; chatnet = "Freenode"; autojoin = "No"; },
@@ -374,9 +374,12 @@ statusbar = {
 };
 settings = {
   core = {
-    real_name = "Kevin Kirkup";
+    real_name = "Pan&Scan";
     user_name = "pan_and_scan";
     nick = "pan_and_scan";
   };
   "fe-text" = { actlist_sort = "refnum"; };
+  "fe-common/core" = {
+    theme = "irssi-color-solarized/solarized-universal";
+  };
 };
